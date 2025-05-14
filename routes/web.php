@@ -1,0 +1,5 @@
+<?php
+
+/**
+ * Routes type: General
+ */
