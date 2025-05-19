@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Example\Modules\Bonuses\Services\Resolvers;
+namespace Example\Components\Bonuses\Services\Resolvers;
 
 class BonusConditionsResolver
 {

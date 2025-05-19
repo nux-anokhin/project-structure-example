@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Example\Modules\Bonuses\Events;
+namespace Example\Components\Bonuses\Events;
 
-use Example\Modules\Basic\Events\EventInterface;
+use Example\Components\Basic\Events\EventInterface;
 
 interface BonusEventInterface extends EventInterface
 {

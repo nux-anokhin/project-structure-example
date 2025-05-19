@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Example\Modules\Bonuses\EventListeners;
+namespace Example\Components\Bonuses\EventListeners;
 
-use Example\Modules\Basic\EventListeners\EventListenerInterface;
-use Example\Modules\Basic\Events\EventInterface;
-use Example\Modules\Bonuses\Events\BonusAddedEvent;
+use Example\Components\Basic\EventListeners\EventListenerInterface;
+use Example\Components\Basic\Events\EventInterface;
+use Example\Components\Bonuses\Events\BonusAddedEvent;
 
 final class BonusAddedEventListener implements EventListenerInterface
 {

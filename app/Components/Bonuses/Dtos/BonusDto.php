@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Example\Modules\Bonuses\Dtos;
+namespace Example\Components\Bonuses\Dtos;
 
-use Example\Modules\Basic\Dtos\DtoInterface;
-use Example\Modules\Bonuses\Models\BonusModel;
+use Example\Components\Basic\Dtos\DtoInterface;
+use Example\Components\Bonuses\Models\BonusModel;
 
 class BonusDto implements DtoInterface
 {

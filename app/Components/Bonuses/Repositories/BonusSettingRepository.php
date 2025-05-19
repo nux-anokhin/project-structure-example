@@ -2,35 +2,45 @@
 
 declare(strict_types=1);
 
-namespace Example\Modules\Bonuses\Repositories;
+namespace Example\Components\Bonuses\Repositories;
 
-use Example\Modules\Basic\Models\ModelInterface;
-use Example\Modules\Basic\Repositories\Criteria\FindCriteriaInterface;
-use Example\Modules\Basic\Repositories\RepositoryInterface;
-use Example\Modules\Bonuses\Models\BonusSettingsModel;
+use Example\Components\Basic\Dtos\DtoInterface;
+use Example\Components\Basic\Models\ModelInterface;
+use Example\Components\Basic\Repositories\Criteria\FindCriteriaInterface;
+use Example\Components\Basic\Repositories\RepositoryInterface;
+use Example\Components\Bonuses\Dtos\BonusDto;
+use Example\Components\Bonuses\Models\BonusSettingModel;
 use Illuminate\Support\Collection;
 
 final class BonusSettingRepository implements RepositoryInterface
 {
-    public function getOneByCriteria(FindCriteriaInterface $criteria): ?BonusSettingsModel
+    public function getOneByCriteria(FindCriteriaInterface $criteria): ?BonusSettingModel
     {
-        // TODO: Implement getOne() method.
+        return null;
     }
 
     /**
-     * @return Collection<BonusSettingsModel>
+     * @return Collection<BonusSettingModel>
      */
     public function getAllByCriteria(FindCriteriaInterface $criteria): Collection
     {
-        // TODO: Implement getAll() method.
+        return new Collection();
     }
 
     /**
-     * @param BonusSettingsModel $model
+     * @param BonusDto $dto
      */
-    public function update(ModelInterface $model): BonusSettingsModel
+    public function create(DtoInterface $dto): BonusSettingModel
     {
-        // TODO: Implement update() method.
+        return new BonusSettingModel();
+    }
+
+    /**
+     * @param BonusSettingModel $model
+     */
+    public function update(ModelInterface $model): BonusSettingModel
+    {
+        return new BonusSettingModel();
     }
 
     public function delete(int $id): void

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Example\Modules\Segmentations;
+namespace Example\Components\Segmentations;
 
 class SegmentationServiceProvider
 {

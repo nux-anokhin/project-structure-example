@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Example\Modules\Basic\Repositories\Criteria;
+namespace Example\Components\Basic\Repositories\Criteria;
 
 use Illuminate\Database\Query\Builder;
 

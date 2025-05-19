@@ -2,9 +2,8 @@
 
 declare(strict_types=1);
 
-namespace Example\Modules\Bonuses;
+namespace Example\Components\Bonuses;
 
 class BonusServiceProvider
 {
-
 }

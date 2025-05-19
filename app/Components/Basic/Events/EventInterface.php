@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Example\Modules\Basic\Events;
+namespace Example\Components\Basic\Events;
 
 interface EventInterface
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Example\Modules\Basic\Handlers;
+namespace Example\Components\Basic\Handlers;
 
 use Illuminate\Foundation\Exceptions\Handler;
 

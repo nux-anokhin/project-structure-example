@@ -1,8 +1,8 @@
 <?php
 
-namespace Example\Modules\Basic\EventListeners;
+namespace Example\Components\Basic\EventListeners;
 
-use Example\Modules\Basic\Events\EventInterface;
+use Example\Components\Basic\Events\EventInterface;
 
 interface EventListenerInterface
 {

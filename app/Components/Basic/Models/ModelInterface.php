@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Example\Modules\Basic\Models;
+namespace Example\Components\Basic\Models;
 
 interface ModelInterface
 {

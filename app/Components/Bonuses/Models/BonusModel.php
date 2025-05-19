@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Example\Modules\Bonuses\Models;
+namespace Example\Components\Bonuses\Models;
 
-use Example\Modules\Basic\Models\ModelInterface;
+use Example\Components\Basic\Models\ModelInterface;
 
 class BonusModel implements ModelInterface
 {

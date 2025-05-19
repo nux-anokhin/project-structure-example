@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Example\Modules\Bonuses\Services\Resolvers;
+namespace Example\Components\Bonuses\Services\Resolvers;
 
-use Example\Modules\Bonuses\Services\Resolvers\Strategies\Priority\PriorityStrategyInterface;
+use Example\Components\Bonuses\Services\Resolvers\Strategies\Priority\PriorityStrategyInterface;
 
-class BonusPriorityResolver
+readonly class BonusPriorityResolver
 {
     public function __construct(
-        private readonly PriorityStrategyInterface $strategy
+        private PriorityStrategyInterface $strategy
     ) {
     }
 

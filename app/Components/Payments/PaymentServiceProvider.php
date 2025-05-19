@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Example\Modules\Payments;
+namespace Example\Components\Payments;
 
 class PaymentServiceProvider
 {

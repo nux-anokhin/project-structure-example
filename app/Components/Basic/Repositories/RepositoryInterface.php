@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Example\Modules\Basic\Repositories;
+namespace Example\Components\Basic\Repositories;
 
-use Example\Modules\Basic\Dtos\DtoInterface;
-use Example\Modules\Basic\Models\ModelInterface;
-use Example\Modules\Basic\Repositories\Criteria\FindCriteriaInterface;
+use Example\Components\Basic\Dtos\DtoInterface;
+use Example\Components\Basic\Models\ModelInterface;
+use Example\Components\Basic\Repositories\Criteria\FindCriteriaInterface;
 use Illuminate\Support\Collection;
 
 interface RepositoryInterface

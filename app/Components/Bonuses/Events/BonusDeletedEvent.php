@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Example\Modules\Bonuses\Events;
+namespace Example\Components\Bonuses\Events;
 
 final class BonusDeletedEvent extends AbstractBonusEvent
 {
