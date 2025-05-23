@@ -4,6 +4,14 @@ declare(strict_types=1);
 
 namespace Example\Components\Bonuses;
 
-class BonusServiceProvider
+use Illuminate\Support\ServiceProvider;
+
+class BonusServiceProvider extends ServiceProvider
 {
+    /**
+     * Register any application services.
+     */
+    public function register(): void
+    {
+    }
 }

@@ -9,7 +9,7 @@ use Example\Components\Bonuses\Models\BonusSettingModel;
 use Example\Components\Bonuses\Services\BonusService;
 use Example\Components\Bonuses\Services\BonusSettingService;
 
-final readonly class BonusComponentComponent implements BonusComponentInterface
+final readonly class BonusComponentService implements BonusComponentInterface
 {
     public function __construct(
         private BonusService $bonusService,
